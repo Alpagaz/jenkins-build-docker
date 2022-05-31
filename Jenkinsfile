@@ -19,8 +19,6 @@ node{
     }
 
     }
-      stage('remove image') {
-        app = docker.remove("srv-web")
-    }
+    
     
 }
